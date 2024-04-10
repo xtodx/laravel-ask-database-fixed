@@ -1,7 +1,7 @@
 <?php
 
-use BeyondCode\Oracle\Exceptions\PotentiallyUnsafeQuery;
-use BeyondCode\Oracle\Oracle;
+use Xtodx\Oracle\Exceptions\PotentiallyUnsafeQuery;
+use Xtodx\Oracle\Oracle;
 
 it('can query openai for a query', function () {
     $queryPrompt = version_compare(app()->version(), '10', '>=') ? 'query-prompt-l10.txt' : 'query-prompt.txt';

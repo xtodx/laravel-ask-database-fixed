@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\Oracle\Database\Factories;
+namespace Xtodx\Oracle\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

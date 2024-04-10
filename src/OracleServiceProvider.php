@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\Oracle;
+namespace Xtodx\Oracle;
 
 use Illuminate\Support\Facades\DB;
 use Spatie\LaravelPackageTools\Package;

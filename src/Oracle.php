@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\Oracle;
+namespace Xtodx\Oracle;
 
-use BeyondCode\Oracle\Exceptions\PotentiallyUnsafeQuery;
+use Xtodx\Oracle\Exceptions\PotentiallyUnsafeQuery;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;

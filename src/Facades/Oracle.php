@@ -1,16 +1,16 @@
 <?php
 
-namespace BeyondCode\Oracle\Facades;
+namespace Xtodx\Oracle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \BeyondCode\Oracle\Oracle
+ * @see \Xtodx\Oracle\Oracle
  */
 class Oracle extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \BeyondCode\Oracle\Oracle::class;
+        return \Xtodx\Oracle\Oracle::class;
     }
 }

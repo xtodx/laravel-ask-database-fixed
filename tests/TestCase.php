@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\Oracle\Tests;
+namespace Xtodx\Oracle\Tests;
 
-use BeyondCode\Oracle\OracleServiceProvider;
+use Xtodx\Oracle\OracleServiceProvider;
 use OpenAI\Laravel\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 

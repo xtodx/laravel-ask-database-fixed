@@ -1,6 +1,6 @@
 <?php
 
-use BeyondCode\Oracle\Tests\TestCase;
+use Xtodx\Oracle\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 

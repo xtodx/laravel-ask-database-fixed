@@ -1,18 +1,23 @@
 {
-    "name": "beyondcode/laravel-ask-database",
+    "name": "xtodx/laravel-ask-database",
     "description": "Use natural language and AI to query your database from Laravel",
     "keywords": [
-        "beyondcode",
+        "xtodx",
         "laravel",
         "laravel-ask-database"
     ],
-    "homepage": "https://github.com/beyondcode/laravel-ask-database",
+    "homepage": "https://github.com/xtodx/laravel-ask-database",
     "license": "MIT",
     "authors": [
         {
             "name": "Marcel Pociot",
             "email": "marcel@beyondco.de",
             "role": "Developer"
+        },
+        {
+            "name": "Anton Kovalenko",
+            "email": "tonylovepony@gmail.com",
+            "role": "Fix"
         }
     ],
     "require": {
@@ -38,13 +43,13 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\Oracle\\": "src",
-            "BeyondCode\\Oracle\\Database\\Factories\\": "database/factories"
+            "Xtodx\\Oracle\\": "src",
+            "Xtodx\\Oracle\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\Oracle\\Tests\\": "tests"
+            "Xtodx\\Oracle\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -64,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\Oracle\\OracleServiceProvider"
+                "Xtodx\\Oracle\\OracleServiceProvider"
             ],
             "aliases": {
-                "Oracle": "BeyondCode\\Oracle\\Facades\\Oracle"
+                "Oracle": "Xtodx\\Oracle\\Facades\\Oracle"
             }
         }
     },
