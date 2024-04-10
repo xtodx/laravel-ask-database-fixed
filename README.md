@@ -1,9 +1,9 @@
 # Laravel Ask DB: Natural Language Database Query Builder
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/laravel-ask-database.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-ask-database)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/beyondcode/laravel-ask-database/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/beyondcode/laravel-ask-database/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/beyondcode/laravel-ask-database/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/beyondcode/laravel-ask-database/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/laravel-ask-database.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-ask-database)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/xtodx/laravel-ask-database-fixed.svg?style=flat-square)](https://packagist.org/packages/xtodx/laravel-ask-database-fixed)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/xtodx/laravel-ask-database-fixed/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/xtodx/laravel-ask-database-fixed/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/xtodx/laravel-ask-database-fixed/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/xtodx/laravel-ask-database-fixed/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/xtodx/laravel-ask-database-fixed.svg?style=flat-square)](https://packagist.org/packages/xtodx/laravel-ask-database-fixed)
 
 > [!NOTE]  
 > This package is meant to be a learning resource for prompt engineering and how to achieve AI-generated query generation with PHP/Laravel. You should probably not use this in production
@@ -20,7 +20,7 @@ DB::ask('How many users do we have on the "pro" plan?');
 You can install the package via composer:
 
 ```bash
-composer require beyondcode/laravel-ask-database
+composer require xtodx/laravel-ask-database-fixed
 ```
 
 You can publish the config file with:
